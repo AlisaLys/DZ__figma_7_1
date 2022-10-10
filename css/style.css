@@ -1,0 +1,50 @@
+/*&display=swap&subset=cyrillic-ext*/
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+/* Использовать после body 
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+*/
+
+body{
+	max-width: 237px;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 143%;
+	background: #F5F5F5;
+	margin: 93px 0px 0px 200px;
+	color: #4B4B4B;
+	letter-spacing: 0.15px;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+h1{
+	font-weight: 700;
+	line-height: 157%;
+	margin-bottom: 28px;
+}
+li{
+	margin-bottom: 16px;
+	padding-left: 35px;
+}
+.contactone{
+	background: url("../img/iconone.png") 0 3px no-repeat;
+}
+.contacttwo{
+	background: url("../img/icontwo.png") 0 3px no-repeat;
+}
+.contactthree{
+	background: url("../img/iconthree.png") 0 3px no-repeat;
+}
+.contactfor{
+	background: url("../img/iconfor.png") -2px 3px no-repeat;
+}
